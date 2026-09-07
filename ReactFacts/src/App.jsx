@@ -1,8 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
-  
-}
-
-export default App
+import { createRoot } from 'react-dom/client';
+const root = createRoot(document.getElementById('root'));
+root.render(
+    <img src="/public/react-logo.png" />
+)
